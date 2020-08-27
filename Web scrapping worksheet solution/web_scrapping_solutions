@@ -1,50 +1,50 @@
 
 In Q1 to Q9, only one option is correct, Choose the correct option:
-1.	Which of the following extracts information from user generated content?
+1.Which of the following extracts information from user generated content?
 A) Java script tagging			B) Web scraping
 C) A/B testing				D) MROCs
 ANS - B
 
-2.	Which of the following is not a web scraping library in python?
+2.Which of the following is not a web scraping library in python?
 A) selenium				B) Beautiful soup
 C) Requests				C) scrapy
 ANS- C-Requests.
 
-3.	Selenium tests __________?
+3.Selenium tests __________?
 A) Browser based applications		B) DOS applications
 C) GUI applications			D) All of the above
 ANS-D
 
-4.	Task of crawling is performed by a complex software which is known as:
+4.Task of crawling is performed by a complex software which is known as:
 A) Scraper				B) Crawler
 C) Boat					D) Spider
 ANS – B). Crawler.
 
-5.	Which of the following commands is used to access name of a tag in Beautiful Soup?
+5.Which of the following commands is used to access name of a tag in Beautiful Soup?
 A) tag.attrs				B) tag.name
 C) tag,id				C) tag[‘id’]
 ANS – B- tag.name
 
-6.	Which of the following is the default parser in Beautiful Soup?
+6.Which of the following is the default parser in Beautiful Soup?
 A) html.parser				B) html5lib
 C) lxml					D) lxml-xml
 ANS -C – lxml
 
-7.	In selenium the webdriver is used to?
+7.In selenium the webdriver is used to?
 A) design a test using selenese
 B) test a web application on firefox only
 C) execute tests on HtmlUnit browser
 D) to download any content from a webpage
 ANS - C
 
-8.	In selenium, driver.find_elements_by_xpath(‘given xpath’) returns:
+8.In selenium, driver.find_elements_by_xpath(‘given xpath’) returns:
 A) the first webelement associated with the ‘given xpath’
 B) the url of first webelement associated with the ‘given xpath’
 C) the list of all webelements associated with the ‘given xpath’
 D) all the attributes of the first webelement associated with the ‘given xpath’
 ANS – D
 
-9.	The script ‘window.scrollBy(0,a) scrolls the webpage by?
+9.The script ‘window.scrollBy(0,a) scrolls the webpage by?
 A) ‘a’ number of horizontal spaces
 B) ‘a’ number of lines
 C) ‘a’ number of pixels horizontally
