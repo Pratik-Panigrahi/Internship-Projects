@@ -1,11 +1,11 @@
 Q1 and Q2 have one or more correct answer. Choose all the correct option to answer your question.
 
-1.	Which of the following is/are DDL commands in SQL? 
+1.Which of the following is/are DDL commands in SQL? 
   A)	Create B) Update
   C) DeleteD) ALTER 
 Ans=(A),(D)
 
-2.	Which of the following is/are DML commands in SQL? 
+2.Which of the following is/are DML commands in SQL? 
   A) Update B) Delete 
   C) Select D) Drop 
 Ans=(A),(B),(C) 
