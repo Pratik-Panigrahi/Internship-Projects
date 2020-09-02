@@ -1,0 +1,111 @@
+Q1 to Q8 are MCQs with only one correct answer. Choose the correct option.
+
+1. Which of the following can approximate any function universally (i.e. universal approximators)?
+  A) Boosted Decision Trees B) Neural Networks
+  C) Kernel SVM D) All of the above
+  Ans=(D)All of the above
+  
+2. In which of the following domains we cannot use neural networks?
+  A) Image Processing B) Speech Processing
+  C) Fraud Detection D) None of the above 
+ Ans=(D) None of the above
+ 
+3. Rearrange the following steps of a gradient descent algorithm in correct order of their occurrence?
+  i. Initialize random weight and bias
+  ii. Repeat the process until you find the best weights of network
+  iii. Change weights and biases for each neuron to reduce the error
+  iv. Calculate error distances between the actual and the predicted value
+  v. Pass an input through the network and get values from output layer
+  Choose the correct option:
+  A) iv – i – iii – v – ii B) v – i – iii – iv –ii
+  C) i – v – iv – iii – ii D) i – v – iii –iv –ii  
+  Ans=(A) iv – i – iii – v – ii
+  
+4. What is the full form of RNN?
+  A) Recurrent Neural Network B) Recursive Neural Network
+  C) Redundant Neural Network D) Resurrection Neural Network
+  ans=(A) Recurrent Neural Network
+  
+5. What is plasticity in neural networks?
+  A) input pattern keeps on changing B) input pattern has become static
+  C) output pattern keeps on changing D) output is static
+  Ans=(A) input pattern keeps on changing
+  
+6. What is stability plasticity dilemma?
+  A) system can neither be stable nor plastic
+  B) static inputs & categorization can’t be handled
+  C) dynamic inputs & categorization can’t be handled
+  D) none of the above  
+  Ans=(C) dynamic inputs & categorization can’t be handled
+  
+7. Read the following statements:
+  Statement 1: It is possible to train a network well by initializing all the weights as 0
+  Statement 2: It is possible to train a network well by initializing biases as 0
+  Which of the statements given above is true, Choose the correct option?
+  A) Statement 1 is true while Statement 2 is false
+  B) Statement 2 is true while statement 1 is false
+  C) Both statements are true
+  D) Both statements are false
+  Ans=(B) Statement 2 is true while statement 1 is false
+  
+8. Which of the following architecture has feedback connections?
+  A) Recurrent Neural network B) Convolutional Neural Network
+  C) Restricted Boltzmann Machine D) simple Artificial Neural Network
+  Ans=(A) Recurrent Neural network
+
+Q9 and Q10 are MCQs with one or more correct answers. Choose all the correct options.
+
+9. In training a neural network, you notice that the loss does not decrease in the few starting epochs. The reason behind it could be
+  A) Learning Rate is low B) Regularisation parameter is high
+  C) Regularisation parameter is low D) Stuck at local minima
+  Ans=(A)(B)(D)
+  
+10. Which of the following function(s) can be used to impart non – linearity in a neural network?
+  A) Stochastic Gradient Descent B) Rectified Linear Unit
+  C) Convolution Function D) Sigmoid Function
+  Ans(B)
+
+Q11 to Q15 are subjective answer type question. Answer them briefly.
+
+11. What is Deep Learning?
+Ans=-deep learning is a machine learning technique. It teaches a computer to filter inputs through layers to learn how to predict and classify information.
+     Observations can be in the form of images, text, or sound. The inspiration for deep learning is the way that the human brain filters information.
+
+12. What is reinforcement learning?
+Ans=Reinforcement learning is an area of Machine Learning. It is about taking suitable action to maximize reward in a particular situation.
+    It is employed by various software and machines to find the best possible behavior or path it should take in a specific situation. 
+    Reinforcement learning differs from the supervised learning in a way that in supervised learning the training data has the answer key with it so the model is trained with the correct answer itself whereas in reinforcement learning, 
+    there is no answer but the reinforcement agent decides what to do to perform the given task. 
+    In the absence of a training dataset, it is bound to learn from its experience.
+
+13. What Are the Differences Between Machine Learning and Deep Learning?
+Ans=ML-A subset of artificial intelligence involved with the creation of algorithms 
+       which can modify itself without human intervention to produce desired output- by feeding itself through structured data.
+    DL-A subset of machine learning where algorithms are created and function similar to those in machine learning, 
+       but there are numerous layers of these algorithms- each providing a different interpretation to the data it feeds on.
+       Such a network of algorithms are called artificial neural networks, being named so as their functioning is an inspiration, 
+       or you may say; an attempt at imitating the function of the human neural networks present in the brain.
+
+14. What is a perceptron?
+Ans=A perceptron is a neural network unit (an artificial neuron) that does certain computations to detect features or business intelligence in the input data. 
+
+15. What’s the difference between AI and ML?
+Ans=AI is a bigger concept to create intelligent machines that can simulate human thinking capability and behavior, whereas, 
+    Machine learning(ML) is an application or subset of AI that allows machines to learn from data without being programmed explicitly.
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+ 
