@@ -1,0 +1,64 @@
+1. Write SQL query to create table Customers.
+Ans:CREATE TABLE Customers(
+customerNumber INT PK ,
+customerName VARCHAR(50),
+contactLastName VARCHAR(50),
+contactFirstName VARCHAR(50),
+phone VARCHAR(20),
+adressLine1 VARCHAR(255),
+adressLine2 VARCHAR(255), 
+city VARCHAR(20),
+state VARHCAR(20),
+postalcode ,
+country VARCHAR(20),
+salesRepEmployeeNumber INT(10),
+creditLimit INT(10));
+
+2. Write SQL query to create table Orders.
+Ans:CREATE TABLE orders(
+orderNumber INT(20),
+orderDate DATE , 
+requiredDate Date,
+shippedDate Date,
+status VARCHAR(25),
+comments VARCHAR(50),
+customerNumber INT FK));
+
+3. Write SQL query to show all the columns data from the Orders Table.
+Ans:DESCRIBE orders;
+
+4. Write SQL query to show all the comments from the Orders Table.
+Ans:SELECT COMMENTS FROM orders;
+
+5. Write a SQL query to show orderDate and Total number of orders placed on that date, from Orders table.
+Ans:SELECT ORDERDATE , COUNT(orderNumber) FROM orders WHERE ORDERDATE = " ";
+
+6. Write a SQL query to show employeNumber, lastName, firstName of all the employees from employees table.
+Ans:SELECT  employeNumber, lastName, firstName from employees;
+
+7. Write a SQL query to show all orderNumber, customerName of the person who placed the respective order.
+Ans=SELECT orderNumber, customerName FROM orders WHERE customerName = " ";
+
+8. Write a SQL query to show name of all the customers in one column and salerepemployee name in another column.
+Ans:SELECT customerName , salesRepEmployeeNumber FROM customers;
+
+9. Write a SQL query to show Date in one column and total payment amount of the payments made on that date from the payments table.
+Ans:SELECT orderdate , paymentDateAmount
+FROM orders
+INNER JOIN payments 
+ON orders.customerNumber = payments.customerNumber;
+
+10. Write a SQL query to show all the products productName, MSRP, productDescription from the products table.
+Ans:SELECT productName, MSRP, productDescription FROM products;
+
+11. Write a SQL query to print the productName, productDescription of the most ordered product.
+Ans:SELECT productName, productDescription FROM products WHERE( SELECT MAX(DISTINCT(productCode)) FROM products);
+
+12. Write a SQL query to print the city name where maximum number of orders were placed.
+Ans:SELECT city name FROM customers LEFT JOIN orders USING (customerNumber) WHERE orderNumber = MAX(orderNumber);
+
+13. Write a SQL query to get the name of the state having maximum number of customers.
+Ans:SELECT state FROM customers HAVING MAX(COUNT(customerNumber));
+
+14. Write a SQL query to print the employee number in one column and Full name of the employee in the second column for all the employees.
+Ans:SELECT employeeNumber , CONCAT(firstName , lastName) as FullName from employees;
